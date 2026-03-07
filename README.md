@@ -67,13 +67,13 @@ Frontend runs at: http://localhost:3001
 
 ### Environment Variables Explanation
 ```bash
-| Variable               | Description                         |
-| ---------------------- | ---------------------------         |
-| DATABASE_URL           | Database connection string          |
-| SECRET_KEY             | Secret key used to sign JWT tokens  |
-| ALGORITHM              | Algorithm used for token encryption |
-| ACCESS_TOKEN_EXPIRE_MINUTES  |Access token expiry time       |
-| REFRESH_TOKEN_EXPIRE_DAYS| Refresh token expiry time         |
+| Variable                    | Description                         |
+| --------------------------- | ---------------------------         |
+| DATABASE_URL                | Database connection string          |
+| SECRET_KEY                  | Secret key used to sign JWT tokens  |
+| ALGORITHM                   | Algorithm used for token encryption |
+| ACCESS_TOKEN_EXPIRE_MINUTES |Access token expiry time             |
+| REFRESH_TOKEN_EXPIRE_DAYS   | Refresh token expiry time           |
 ```
 
 ### Example .env configuration:
